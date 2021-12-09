@@ -58,7 +58,7 @@ public class MusicSystem {
         final String DB_URL = "jdbc:mariadb://"+ DB_IP +":" +DB_PORT +"/"+DB_NAME;
         Connection c;
         Class.forName(driver);
-        c = DriverManager.getConnection(DB_URL, "root", "mya2714900!");
+        c = DriverManager.getConnection(DB_URL, "root", "");
         if(c!=null){
             connection = c;
         }
